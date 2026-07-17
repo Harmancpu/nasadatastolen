@@ -1,0 +1,31 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.card {
+  width: min(100%, 36rem);
+  padding: 2.5rem;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.description {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+}
