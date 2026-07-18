@@ -1,35 +1,62 @@
-:root {
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #111827;
-  background-color: #f8fafc;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  --text: #334155;
-  --border: #e2e8f0;
-  --accent: #7c3aed;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #c99ad4;
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  text-align: center;
+  font-family: Georgia, serif;
 }
 
-#root {
-  min-height: 100vh;
+#app {
+  width: 70%;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #18001f;
+  color: #c99ad4;
+  clip-path: polygon(
+    0 0, 98% 0, 100% 3%, 98% 6%, 100% 9%, 98% 12%,
+    100% 15%, 98% 18%, 100% 21%, 98% 24%, 100% 27%,
+    98% 30%, 100% 33%, 98% 36%, 100% 39%, 98% 42%,
+    100% 45%, 98% 48%, 100% 51%, 98% 54%, 100% 57%,
+    98% 60%, 100% 63%, 98% 66%, 100% 69%, 98% 72%,
+    100% 75%, 98% 78%, 100% 81%, 98% 84%, 100% 87%,
+    98% 90%, 100% 93%, 98% 96%, 100% 100%,
+    2% 100%, 0 97%, 2% 94%, 0 91%, 2% 88%, 0 85%,
+    2% 82%, 0 79%, 2% 76%, 0 73%, 2% 70%, 0 67%,
+    2% 64%, 0 61%, 2% 58%, 0 55%, 2% 52%, 0 49%,
+    2% 46%, 0 43%, 2% 40%, 0 37%, 2% 34%, 0 31%,
+    2% 28%, 0 25%, 2% 22%, 0 19%, 2% 16%, 0 13%,
+    2% 10%, 0 7%, 2% 4%, 0 1%
+  );
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: linear-gradient(135deg, #2d0052, #18001f);
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
 }
 
 h1 {
-  margin: 0 0 0.75rem;
-  font-size: clamp(2rem, 3vw, 2.8rem);
-  color: #0f172a;
+  color: #c99ad4;
+}
+
+img,
+video,
+iframe {
+  width: 400px;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+p {
+  color: #c99ad4;
+  font-size: 18px;
+  line-height: 1.5;
 }
